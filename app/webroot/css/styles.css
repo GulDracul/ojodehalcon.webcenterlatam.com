@@ -1,0 +1,106 @@
+/* Estilos generales que aplican a todos los dispositivos */
+.mfont {
+    font-size: 14px; /* Tamaño de fuente predeterminado para todos los dispositivos */
+}
+.mh2{
+color:red;
+
+}
+.mh3{
+color:#2c6877;
+}
+
+.mbtn{
+	font-size: 15px!important;
+    position: relative;
+    top: 22px;	
+}
+.hour-input{
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}	
+
+/* Consulta de medios para estilos específicos en dispositivos móviles */
+
+@media only screen and (max-width: 1200px) {
+    .mfont {
+        font-size: 45px; /* Mantiene el tamaño de fuente predeterminado para dispositivos no móviles */
+    }
+
+    .form-control {
+        font-size: 35px!important; /* Mantiene el tamaño de fuente predeterminado para dispositivos no móviles */
+		height: 60px!important;
+    }
+
+    .message {
+        font-size: 3.9rem; /* Mantiene el tamaño de fuente predeterminado para dispositivos no móviles */
+    }
+
+    .clockdate-wrapper {
+        font-size: 0.9rem; /* Mantiene el tamaño de fuente predeterminado para dispositivos no móviles */
+    }
+	.message {
+    clear: both;
+    color: #fff;
+    font-size: 390%;
+    font-weight: bold;
+    margin: 0 0 1em 0;
+    padding: 5px;
+}
+.clockdate-wrapper{
+	font-size: 90px;
+}
+.mh2{
+color:red;
+font-size: 70px;	
+}
+.mh3{
+color:#2c6877;
+font-size: 65px;	
+}
+.mbtn{
+	font-size: 48px!important;
+    position: relative;
+    top: 35px;	
+	font-weight: 500!important;
+}
+dt {
+    width: 9em;
+}
+dd {
+    margin-left: 9em!important;
+}
+label {
+    display: inline-block;
+    font-size: 35px!important;
+}
+input[type=submit] {
+    font-size: 35px; 
+}
+
+.bootstrap-select.btn-group .dropdown-toggle .filter-option {
+    font-size: 35px!important;
+}
+.bootstrap-select.btn-group .dropdown-menu li a.opt {
+    font-size: 35px!important;
+}
+.dropdown-header {
+   font-size: 35px!important;
+    background: #e5e5e5;
+}
+.bootstrap-select.btn-group .dropdown-menu li a span.text {
+  font-size: 35px!important;
+}
+}
